@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "alanta";
+  src: url("./Alanta\ Rosery.otf") format("opentype");
+}
+
+html {
+  font-size: 18px;
+}
+
+#main {
+  margin: 2%;
+  background-color: rgb(250, 250, 45, 1);
+  padding-bottom: 1rem;
+  box-shadow: 0px 0px 11px 5px rgba(0, 0, 0, 0.75);
+}
+#title {
+  font-family: alanta, "Segoe UI", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  @media screen and (min-width: 310px) {
+    font-size: 3rem;
+  }
+}
+#tribute-info {
+  text-align: center;
+  font-family: "Segoe UI", "Nunito Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #333;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+}
+#image {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  border-radius: 15px;
+  border: 5px solid black;
+  box-sizing: border-box;
+  height: auto;
+}
+
+#img-caption {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
+  a {
+    color: blue;
+    text-decoration: underline;
+    display: block;
+  }
+}
+
+#img-div {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1024px;
+  @media screen and (min-width: 550px) {
+    width: 50%;
+  }
+}
+
+#time_line {
+  margin: auto;
+  width: 80%;
+  @media screen and (min-width: 480px) {
+    width: 60%;
+  }
+  display: block;
+  h1 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+  }
+
+  ul {
+    list-style-type: none;
+    li {
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+      text-indent: -1.5rem;
+      margin-left: 1.5rem;
+      font-size: 1rem;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.5rem;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    li::before {
+      content: "✔️";
+      margin-right: 0rem;
+      font-size: 1rem;
+    }
+  }
+}
+
+#aditional_info {
+  p {
+    font-family: alanta, "Segoe UI", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    line-height: 2.2rem;
+    a {
+      color: blue;
+      background-color: white;
+      outline: 2px solid black;
+      border-radius: 15px;
+      padding: 0 10px;
+    }
+    a:hover {
+      color: white;
+      background-color: blue;
+      outline: 2px solid white;
+    }
+  }
+}
