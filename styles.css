@@ -13,6 +13,13 @@ html {
   padding-bottom: 1rem;
   box-shadow: 0px 0px 11px 5px rgba(0, 0, 0, 0.75);
 }
+.divisor {
+  height: 15px;
+  background-color: blue;
+  margin: auto;
+  width: 50%;
+  border: 2px solid black;
+}
 #title {
   font-family: alanta, "Segoe UI", sans-serif;
   font-size: 2rem;
@@ -90,7 +97,7 @@ html {
     li {
       padding-bottom: 1rem;
       padding-top: 1rem;
-      text-indent: -1.5rem;
+      text-indent: -2.4rem;
       margin-left: 1.5rem;
       font-size: 1.25rem;
       font-family: "PT Serif", serif;
@@ -102,9 +109,15 @@ html {
     }
 
     li::before {
-      content: "✔️";
-      margin-right: 0rem;
-      font-size: 1rem;
+      content: "";
+      background-image: url(https://media.giphy.com/media/MelhioWPAo6k4Q6BTp/giphy.gif);
+      background-size: contain;
+      margin-top: -15px;
+      margin-bottom: -15px;
+      margin-left: -15px;
+      width: 48px;
+      display: inline-block;
+      height: 48px;
     }
   }
 }
@@ -114,8 +127,7 @@ html {
     font-family: alanta, "Segoe UI", sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem;
     line-height: 2.2rem;
     a {
       color: blue;
@@ -123,6 +135,11 @@ html {
       outline: 2px solid black;
       border-radius: 15px;
       padding: 0 10px;
+
+      img {
+        height: 1.75rem;
+        margin-bottom: -5px;
+      }
     }
     a:hover {
       color: white;
