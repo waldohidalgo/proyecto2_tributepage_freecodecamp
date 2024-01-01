@@ -136,6 +136,7 @@ html {
       outline: 2px solid black;
       border-radius: 15px;
       padding: 0 10px;
+      display: inline-block;
 
       img {
         height: 1.75rem;
