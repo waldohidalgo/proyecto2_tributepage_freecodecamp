@@ -114,7 +114,8 @@ html {
     font-family: alanta, "Segoe UI", sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     line-height: 2.2rem;
     a {
       color: blue;
